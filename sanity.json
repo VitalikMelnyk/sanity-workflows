@@ -1,11 +1,11 @@
 {
   "root": true,
+  "api": {
+    "projectId": "xmzq7k5d",
+    "dataset": "production"
+  },
   "project": {
     "name": "Custom Workflow"
-  },
-  "api": {
-    "projectId": "m2begyfh",
-    "dataset": "production"
   },
   "plugins": [
     "@sanity/base",
@@ -16,7 +16,9 @@
   ],
   "env": {
     "development": {
-      "plugins": ["@sanity/vision"]
+      "plugins": [
+        "@sanity/vision"
+      ]
     }
   },
   "parts": [
